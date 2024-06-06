@@ -15,3 +15,10 @@ print("no. of letters: ", len(input()))
 #variables
 name = input("whats your name?")
 print("Your name is: ", name)
+
+# Exercise:
+print("welcome to band name generator\n")
+city = input("whats the city you grew up on?\n")
+pet = input("whats your fav pet?\n")
+bandName = city + pet
+print("Your band name is: ", bandName)
