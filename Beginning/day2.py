@@ -47,7 +47,7 @@ weight = int(input())
 print("BMI is: ", weight/(height ** 2))
 
 #round()
-print(round(3.6777, 2))
+print(round(8/3, 2))
 #floor division
 print(7//2) #result =3
 
@@ -56,3 +56,19 @@ score  = 0
 height = 1.2
 isWinning = True
 print(f"your score is {score}, your height is {height} and you are winning is {isWinning}")
+
+#number of weeks left on Earth
+
+x = input("your age: ")
+age_left = 90 - int(x)
+weeks = age_left * 52
+print(f"You have {weeks} weeks left.")
+
+#tip Calculator 
+
+print("Welcome to the tip calculator!\n")
+total_bill = input("what was the total bill?")
+tip = input("How much tip would you like to give? 10, 12, or 15?")
+spilit = input("How many people to spilit the bill?")
+total = round((float(total_bill) + (float(total_bill) * (float(tip)/100)))/float(spilit), 2)
+print(f"Each person should pay: {total}")
